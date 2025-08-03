@@ -1,0 +1,187 @@
+[
+  {
+    "service": "Loan Service",
+    "issues": [
+      {
+        "task": "Home Loan with property document management",
+        "description": "Support home loan applications with property document upload, verification, and valuation integration.",
+        "labels": [
+          "loan",
+          "home-loan",
+          "document-management"
+        ]
+      },
+      {
+        "task": "Education Loan with co-applicant and institute verification",
+        "description": "Handle education loan applications including co-applicant details and educational institute verification.",
+        "labels": [
+          "loan",
+          "education-loan",
+          "co-applicant"
+        ]
+      },
+      {
+        "task": "Gold Loan integration with asset verification",
+        "description": "Support gold loan processing with gold purity verification and current gold rate integration.",
+        "labels": [
+          "loan",
+          "gold-loan",
+          "asset-verification"
+        ]
+      },
+      {
+        "task": "Business Loan with ITR and cash flow checks",
+        "description": "Process business loan applications with ITR verification, cash flow analysis, and business document validation.",
+        "labels": [
+          "loan",
+          "business-loan",
+          "financial-verification"
+        ]
+      },
+      {
+        "task": "Co-applicant support",
+        "description": "Support multiple applicants for loans with combined income and liability calculations.",
+        "labels": [
+          "loan",
+          "co-applicant",
+          "application"
+        ]
+      },
+      {
+        "task": "Application status tracker",
+        "description": "Provide real-time status tracking for loan applications (submitted, under review, approved, rejected, disbursed).",
+        "labels": [
+          "loan",
+          "status-tracking",
+          "application"
+        ]
+      },
+      {
+        "task": "Loan Offer Engine",
+        "description": "Generate personalized loan offers with interest rates, tenure options, and EMI calculations based on user profile and creditworthiness.",
+        "labels": [
+          "loan",
+          "offer-engine",
+          "personalization"
+        ]
+      },
+      {
+        "task": "Credit Bureau Integration (CIBIL, Experian)",
+        "description": "Integrate with credit bureaus to fetch credit scores and history for loan eligibility assessment.",
+        "labels": [
+          "loan",
+          "credit-bureau",
+          "integration"
+        ]
+      },
+      {
+        "task": "Upload & verify collateral",
+        "description": "Support collateral document upload and verification for secured loans with valuation workflows.",
+        "labels": [
+          "loan",
+          "collateral",
+          "verification"
+        ]
+      },
+      {
+        "task": "Income verification",
+        "description": "Verify applicant income through salary slips, bank statements, and ITR documents with automated validation.",
+        "labels": [
+          "loan",
+          "income-verification",
+          "validation"
+        ]
+      },
+      {
+        "task": "Dedupe service",
+        "description": "Prevent duplicate loan applications from the same applicant across multiple channels and time periods.",
+        "labels": [
+          "loan",
+          "dedupe",
+          "fraud-prevention"
+        ]
+      },
+      {
+        "task": "Dynamic EMI recalculation",
+        "description": "Recalculate EMIs when users make part-payments or request tenure changes with updated amortization schedules.",
+        "labels": [
+          "loan",
+          "emi",
+          "calculation"
+        ]
+      },
+      {
+        "task": "Delinquency engine",
+        "description": "Track missed EMI payments and trigger progressive collection workflows (reminders, notices, legal action).",
+        "labels": [
+          "loan",
+          "delinquency",
+          "collections"
+        ]
+      },
+      {
+        "task": "NPA (non-performing asset) tagging",
+        "description": "Automatically classify and tag loans as NPAs based on payment default patterns and regulatory guidelines.",
+        "labels": [
+          "loan",
+          "npa",
+          "compliance"
+        ]
+      },
+      {
+        "task": "Collections workflow",
+        "description": "Manage internal and external collection agency coordination for overdue loan accounts.",
+        "labels": [
+          "loan",
+          "collections",
+          "workflow"
+        ]
+      },
+      {
+        "task": "Top-up loan eligibility",
+        "description": "Check and offer top-up loan eligibility for existing loan customers based on repayment history and current outstanding.",
+        "labels": [
+          "loan",
+          "top-up",
+          "eligibility"
+        ]
+      },
+      {
+        "task": "Loan restructuring",
+        "description": "Support loan restructuring during financial crisis including moratorium periods and modified payment terms.",
+        "labels": [
+          "loan",
+          "restructuring",
+          "crisis-management"
+        ]
+      },
+      {
+        "task": "Loan account statement generator",
+        "description": "Generate detailed loan account statements showing payment history, outstanding balance, and upcoming EMIs.",
+        "labels": [
+          "loan",
+          "statements",
+          "reporting"
+        ]
+      },
+      {
+        "task": "Insurance bundling",
+        "description": "Offer and manage loan protection insurance with premium calculations and claim processing integration.",
+        "labels": [
+          "loan",
+          "insurance",
+          "bundling"
+        ]
+      },
+      {
+        "task": "Emit LoanApproved/Rejected events",
+        "description": "Publish loan decision events for downstream notification and analytics services.",
+        "labels": [
+          "loan",
+          "event",
+          "kafka"
+        ]
+      }
+    ]
+  }
+]
